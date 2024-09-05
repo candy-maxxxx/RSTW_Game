@@ -22,6 +22,9 @@ body {
 
 .intro-page {
     text-align: center;
+    padding: 50px 100px;
+    border-radius: 30px;
+	background-color: white;
 }
 
 .mode-selection, .time-selection {
