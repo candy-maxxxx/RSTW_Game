@@ -5,7 +5,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: Helvetica;
+    font-family: helvetica, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body {
 .intro-page h1,
 .mode-selection h2,
 .time-selection h2 {
-    font-family: Helvetica;
+    font-family: helvetica, sans-serif;
 }
 
 .intro-page {
