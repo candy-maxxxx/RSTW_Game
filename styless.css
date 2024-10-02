@@ -99,6 +99,18 @@ body {
     border-radius: 5px;
 }
 
+#image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#statement-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 .word-boxes {
     margin-bottom: 20px;
 }
