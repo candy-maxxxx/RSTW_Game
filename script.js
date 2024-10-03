@@ -281,6 +281,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let selectedSchoolLevel = '';
     let selectedMode = '';
     let selectedTime = 150;
+    let isGameActive = false;
 
     // Constants for guesses and skips
     const MAX_SKIPS = 2;
@@ -402,6 +403,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Start the game
     function startGame() {
+        isGameActive = true;
         instructionsContainer.style.display = 'none';
         gameContainer.style.display = 'block';
         resetGameState();
@@ -504,6 +506,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Handle physical keyboard input
     function handleKeyPress(event) {
+        if (!isGameActive) return;
         const letter = event.key.toLowerCase();
         const validKeys = 'abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()';
         if (validKeys.includes(letter)) {
@@ -648,6 +651,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // End the game with a message
     function endGame(msg) {
+        isGameActive = false;
         clearInterval(timer);
         backgroundSound.pause();
         gameOverSound.play();
