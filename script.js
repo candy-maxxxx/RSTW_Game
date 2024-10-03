@@ -117,6 +117,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     term: 'mass',
                     image: 'Images/Physics/Physics14.jpg' // Updated image path
                 }
+		{ statement: 'The measurement of magnitude.', term: 'scalar' },
+	        { statement: 'When two objects collide.', term: 'collision' },
+	        { statement: 'The change in an object’s position.', term: 'displacement' },
+	        { statement: 'A body\'s tendency to resist motion.', term: 'inertia' },
+	        { statement: 'Measurement of magnitude and direction of movement.', term: 'vector' }
             ]
         },
         highschool: {
