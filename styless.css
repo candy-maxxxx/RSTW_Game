@@ -1,219 +1,285 @@
 /* styles.css */
 
-/* -------------------- Body Styles -------------------- */
+/* Reset some default browser styles */
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-image: url('RSTW_Gamebg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 110%; /* Adjusted to accommodate content */
     background-color: #f0f0f0;
     margin: 0;
-    margin-top: 10%;
-    height: 110%;
-}
-
-/* -------------------- Intro Page Styles -------------------- */
-.intro-page h1,
-.mode-selection h2,
-.time-selection h2 {
-    font-family: helvetica, sans-serif;
+    padding: 0;
 }
 
 .intro-page {
     text-align: center;
     padding: 50px 100px;
     border-radius: 30px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency for better visibility */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 90%;
+	margin-top: 7%;
 }
 
-.mode-selection,
-.time-selection {
-    margin-bottom: 20px;
+.intro-page h1,
+.mode-selection h2,
+.time-selection h2,
+.school-level-selection h2 {
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 15px;
+    color: #333333;
 }
 
-.mode-button,
-.time-button {
+.school-level-selection, .mode-selection, .time-selection {
+    margin-bottom: 30px; /* Increased spacing for better layout */
+}
+
+.level-button, .mode-button, .time-button {
     padding: 10px 20px;
     font-size: 18px;
     cursor: pointer;
     margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.level-button:hover, .mode-button:hover, .time-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
 }
 
 .selected {
-    background-color: #a0a0a0;
+    background-color: #a0a0a0; /* Grey background for selected buttons */
+    color: white;
 }
 
 .start-button {
-    padding: 10px 20px;
-    font-size: 18px;
+    padding: 12px 25px;
+    font-size: 20px;
     cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #008CBA; /* Blue background */
+    color: white;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
-/* -------------------- Instructions Container Styles -------------------- */
+.start-button:hover:enabled {
+    background-color: #007BB5;
+    transform: scale(1.05);
+}
+
+.start-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
 .instructions-container {
     text-align: center;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.95);
     border: 2px solid #000000;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     width: 80%;
     max-width: 600px;
     margin-top: 5%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 .ready-button {
-    padding: 10px 20px;
+    padding: 10px 25px;
     font-size: 18px;
     cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
-/* -------------------- Game Container Styles -------------------- */
+.ready-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
 .game-container {
     text-align: center;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.95);
     border: 2px solid #000000;
-    padding: 20px;
+    padding: 20px 30px;
     border-radius: 10px;
     width: 80%;
-    max-width: 600px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 50px; /* Adds space below the game container */
-    margin-top: -7.5%; /* Adjusts positioning upwards */
+    max-width: 800px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    margin: 50px 0;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 .game-title {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    font-size: 32px;
+    color: #333333;
 }
 
 .top-section {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    align-items: center;
+    margin-bottom: 25px;
 }
 
-.timer,
-.scoreboard,
-#guesses,
-#skips {
-    font-size: 18px;
+.timer, .scoreboard, #guesses, #skips {
+    font-size: 20px;
     font-weight: bold;
-    color: black;
+    color: #333333;
 }
 
-#guesses,
-#skips {
-    font-size: 20px;
-    margin: 10px 0;
-}
-
-/* -------------------- Statement Styles -------------------- */
 .statement {
-    margin-bottom: 20px;
-    font-size: 20px;
-    padding: 10px;
-    border: 1px solid #000000;
+    margin-bottom: 25px;
+    font-size: 22px;
+    padding: 15px;
+    border: 2px solid #000000;
     border-radius: 5px;
+    background-color: #fafafa;
+    color: #333333;
 }
 
-/* -------------------- Image Container Styles -------------------- */
 #image-container {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 #statement-image {
-    max-width: 100%;
-    height: 80%;
+	max-width: 100%;
+    height: 100%;
     display: block;
     margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* -------------------- Word Boxes Styles -------------------- */
 .word-boxes {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .word-box {
-    display: inline-flex; /* Centers content both vertically and horizontally */
-    justify-content: center;
-    align-items: center;
-    width: 40px; /* Increased size for better visibility */
-    height: 40px;
-    border: 1px solid #000; /* Thinner border for a cleaner look */
-    margin: 2px;
-    font-size: 24px; /* Larger font for readability */
-    font-family: Arial, sans-serif; /* Consistent font */
-    background-color: #f0f0f0; /* Light background for contrast */
-    border-radius: 5px; /* Rounded corners for aesthetics */
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 40px; 
+    height: 40px; 
+    border: 2px solid #000000;
+    margin: 5px; 
+    font-size: 24px; 
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
+    border-radius: 5px;
 }
 
-/* -------------------- Keyboard Styles -------------------- */
 .keyboard {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .key {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border: 2px solid #000000;
     margin: 5px;
-    line-height: 30px;
+    line-height: 35px;
     text-align: center;
     font-size: 18px;
     border-radius: 50%;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.2s;
+    background-color: #e7e7e7;
+    color: #333333;
+}
+
+.key:hover {
+    background-color: #d4d4d4;
+    transform: scale(1.05);
 }
 
 .key.used {
     background-color: #cccccc;
-    pointer-events: none; /* Disables clicking on used keys */
+    pointer-events: none;
 }
 
-/* -------------------- Skip Button Styles -------------------- */
 .skip-button {
-    padding: 10px 20px;
+    padding: 10px 25px;
     font-size: 16px;
     cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #f44336; /* Red background */
+    color: white;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
-/* -------------------- Message Container Styles -------------------- */
+.skip-button:hover:enabled {
+    background-color: #da190b;
+    transform: scale(1.05);
+}
+
+.skip-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
 .message-container {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.8);
-    position: absolute;
+    position: fixed; /* Changed to fixed for better overlay */
     top: 0;
     left: 0;
     width: 100%;
-    height: 130%; /* Ensures full coverage */
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #ffffff;
+    z-index: 1000; /* Ensure it overlays other content */
 }
 
 .message {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 28px;
+    margin-bottom: 25px;
 }
 
 .message-buttons {
     display: flex;
-    gap: 20px;
+    gap: 25px;
 }
 
 .message-button {
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 12px 30px;
+    font-size: 18px;
     cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.message-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
 }
