@@ -20,6 +20,39 @@ document.addEventListener('DOMContentLoaded', () => {
                     term: 'heart',
                     image: 'Images/Bio/Bio7.png' // Updated image path
                 },
+		{   statement: 'Which part of the plant holds it upright in the ground and absorbs water and nutrients?',
+		    term: 'roots' 
+		},
+		{   statement: 'What is the largest organ in the human body?',
+		    term: 'skin' 
+		},
+                {   statement: 'What do we call animals that eat only plants?',
+		    term: 'herbivores' 
+		},
+                {   statement: 'Which animal is known for its ability to regenerate its tail if it gets cut off?',
+		    term: 'lizard' 
+		},
+                {   statement: 'Which part of the flower becomes the fruit?', 
+		    term: 'ovary' 
+		},
+                {   statement: 'What do bees collect from flowers to make honey?', 
+		    term: 'nectar'
+		},
+                {   statement: 'What do we call animals that are active during the night?',
+		     term: 'nocturnal' 
+		},
+		{ statement: 'What do we call the living organisms that break down dead plants and animals?', term: 'decomposers' },
+                { statement: 'Which part of the tree helps it make food?', term: 'leaves' },
+                { statement: 'What part of the human body controls everything we do, like moving and thinking?', term: 'brain' },
+                { statement: 'What is the name of the small openings on the underside of leaves that help plants breathe?', term: 'stomata' },
+                { statement: 'What is the hard outer covering of insects called?', term: 'exoskeleton' },
+                { statement: 'What do we call the process where caterpillars turn into butterflies?', term: 'metamorphosis' },
+                { statement: 'What is a baby frog called?', term: 'tadpole' },
+                { statement: 'What type of animal lays eggs but feeds its babies with milk (a monotreme)?', term: 'platypus' },
+                { statement: 'What do whales use to communicate with each other underwater?', term: 'echolocation' },
+                { statement: 'Which part of the flower is responsible for producing seeds (located inside the ovary)?', term: 'ovules' },
+                { statement: 'What is the name of the smallest bone in the human body (it is located in the ear)?', term: 'stapes' },
+                { statement: 'Which part of the tree provides stability and holds the tree upright?', term: 'trunk' },
                 { 
                     statement: 'The study of naming and classifying organisms.', 
                     term: 'taxonomy',
