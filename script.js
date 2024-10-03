@@ -3,70 +3,70 @@
 document.addEventListener('DOMContentLoaded', () => {
     const statements = {
         bio: [
-            { statement: 'The powerhouse of the cell.', term: 'mitochondria', image: 'Images/Bio/Bio1.png' },
-            { statement: 'The process by which plants make their food.', term: 'photosynthesis', image: 'Images/Bio/Bio2.png'  },
-            { statement: 'A change in genetic composition of a population from generation to generation.', term: 'evolution', image: 'Images/Bio/Bio3.png' },
-            { statement: 'A phenomenon that refers to a permanent alteration.', term: 'mutation', image: 'Images/Bio/Bio4.png'  },
-            { statement: 'The inner lining in embryology.', term: 'endoderm', image: 'Images/Bio/Bio5.png'  },
-            { statement: 'In phylogeny, these are the descendants of a common ancestor.', term: 'monophyletic', image: 'Images/Bio/Bio6.png'  },
-            { statement: 'A hollow, cone-shaped pump which is muscular in nature.', term: 'heart', image: 'Images/Bio/Bio7.png'  },
-            { statement: 'Gallus gallus is the scientific name of what?', term: 'chicken', image: 'Images/Bio/Bio8.png'  },
-            { statement: 'The second act of swallowing.', term: 'pharyngeal', image: 'Images/Bio/Bio9.png'  },
-            { statement: 'A type of glial cells that connects to the myelin sheaths.', term: 'oligodendrocyte', image: 'Images/Bio/Bio10.png'  },
-            { statement: 'This organ stores urine.', term: 'bladder', image: 'Images/Bio/Bio11.png'  },
-            { statement: 'Codes for particular characteristics.', term: 'allele', image: 'Images/Bio/Bio12.png'  },
-            { statement: 'Entrance to the kidney.', term: 'hilum', image: 'Images/Bio/Bio13.png'  },
-            { statement: 'In a diagram of the heart, what does the red color stand for?', term: 'aorta', image: 'Images/Bio/Bio14.png'  },
-            { statement: 'Requires energy since there is an active contraction of the muscles to reduce the pressure of gas inside the lungs.', term: 'inspiration', image: 'Images/Bio/Bio15.png'  },
-            { statement: 'The filtered blood in the excretory system.', term: 'urine', image: 'Images/Bio/Bio16.png'  },
-            { statement: 'The center of a flower.', term: 'pistil', image: 'Images/Bio/Bio17.png'  },
-            { statement: 'The tallest grass.', term: 'bamboo', image: 'Images/Bio/Bio18.png'  },
-            { statement: 'Milky fluid produced by plants.', term: 'latex', image: 'Images/Bio/Bio19.png'  },
-            { statement: 'Low to high concentration.', term: 'osmosis', image: 'Images/Bio/Bio20.png'  }
+            { statement: 'The powerhouse of the cell.', term: 'mitochondria' },
+            { statement: 'The process by which plants make their food.', term: 'photosynthesis' },
+            { statement: 'A change in genetic composition of a population from generation to generation.', term: 'evolution' },
+            { statement: 'A phenomenon that refers to a permanent alteration.', term: 'mutation' },
+            { statement: 'The inner lining in embryology.', term: 'endoderm' },
+            { statement: 'In phylogeny, these are the descendants of a common ancestor.', term: 'monophyletic' },
+            { statement: 'A hollow, cone-shaped pump which is muscular in nature.', term: 'heart' },
+            { statement: 'Gallus gallus is the scientific name of what?', term: 'chicken' },
+            { statement: 'The second act of swallowing.', term: 'pharyngeal' },
+            { statement: 'A type of glial cells that connects to the myelin sheaths.', term: 'oligodendrocyte' },
+            { statement: 'This organ stores urine.', term: 'bladder' },
+            { statement: 'Codes for particular characteristics.', term: 'allele' },
+            { statement: 'Entrance to the kidney.', term: 'hilum' },
+            { statement: 'In a diagram of the heart, what does the red color stand for?', term: 'aorta' },
+            { statement: 'Requires energy since there is an active contraction of the muscles to reduce the pressure of gas inside the lungs.', term: 'inspiration' },
+            { statement: 'The filtered blood in the excretory system.', term: 'urine' },
+            { statement: 'The center of a flower.', term: 'pistil' },
+            { statement: 'The tallest grass.', term: 'bamboo' },
+            { statement: 'Milky fluid produced by plants.', term: 'latex' },
+            { statement: 'Low to high concentration.', term: 'osmosis' }
         ],
         chem: [
-            { statement: 'The basic unit of a chemical element.', term: 'atom', image: 'Images/Chem/Chem1.png' },
-            { statement: 'A substance made up of only one type of atom.', term: 'element', image: 'Images/Chem/Chem2.png' },
-            { statement: 'Another word for electron.', term: 'valence', image: 'Images/Chem/Chem3.png' },
-            { statement: 'Type of solid where the atoms vibrate in more random arrangements.', term: 'amorphous', image: 'Images/Chem/Chem4.png' },
-            { statement: 'What does OH stands for?', term: 'hydroxide', image: 'Images/Chem/Chem5.png' },
-            { statement: 'A positive charged ion.', term: 'cation', image: 'Images/Chem/Chem6.png' },
-            { statement: 'In the periodic table, vertical columns are also known as?', term: 'groups', image: 'Images/Chem/Chem7.png' },
-            { statement: 'Simplest type of chemical formula.', term: 'empirical', image: 'Images/Chem/Chem8.png' },
-            { statement: 'SnOsub2 + 2Hsub2 -> Sn + 2Hsub2O, what does the "Sn + 2Hsub2O" stand for?', term: 'products', image: 'Images/Chem/Chem9.png' },
-            { statement: 'It is the 11th element in the periodic table.', term: 'sodium', image: 'Images/Chem/Chem10.png' },
-            { statement: 'Study of quantitative aspects regarding chemical equations and formulas.', term: 'stoichiometry', image: 'Images/Chem/Chem11.png' },
-            { statement: 'A+B -> AB is an example of?', term: 'synthesis', image: 'Images/Chem/Chem12.png' },
-            { statement: 'What does the O stands for in LEORA?', term: 'oxidation', image: 'Images/Chem/Chem13.png' },
-            { statement: 'The relationship between volume and pressure in Boyle Law is', term: 'inverse', image: 'Images/Chem/Chem17.png' },
-            { statement: 'It is a quantum number that indicates relative size and relative distance.', term: 'principal', image: 'Images/Chem/Chem15.png' },
-            { statement: 'Sometimes called the orbital-orientation quantum number.', term: 'magnetic', image: 'Images/Chem/Chem16.png' },
-            { statement: 'Movement of fluid from high to low concentration.', term: 'diffusion', image: 'Images/Chem/Chem17.png' },
-            { statement: 'Which element has the highest Ionization energy.', term: 'helium', image: 'Images/Chem/Chem18.png' },
-            { statement: 'It is the 15th element in the periodic table.', term: 'phosphorus', image: 'Images/Chem/Chem19.png' },
-            { statement: 'Absolute zero.', term: 'kelvin', image: 'Images/Chem/Chem20.png' }
+            { statement: 'The basic unit of a chemical element.', term: 'atom' },
+            { statement: 'A substance made up of only one type of atom.', term: 'element' },
+            { statement: 'Another word for electron.', term: 'valence' },
+            { statement: 'Type of solid where the atoms vibrate in more random arrangements.', term: 'amorphous' },
+            { statement: 'What does OH stands for?', term: 'hydroxide' },
+            { statement: 'A positive charged ion.', term: 'cation' },
+            { statement: 'In the periodic table, vertical columns are also known as?', term: 'groups' },
+            { statement: 'Simplest type of chemical formula.', term: 'empirical' },
+            { statement: 'SnO2 + 2H2 -> Sn + 2H2O, what does the "Sn + 2H2O" stand for?', term: 'products' },
+            { statement: 'It is the 11th element in the periodic table.', term: 'sodium' },
+            { statement: 'Study of quantitative aspects regarding chemical equations and formulas.', term: 'stoichiometry' },
+            { statement: 'A+B -> AB is an example of?', term: 'synthesis' },
+            { statement: 'What does the O stands for in LEORA?', term: 'oxidation' },
+            { statement: 'The relationship between volume and pressure in Boyle Law is', term: 'inverse' },
+            { statement: 'It is a quantum number that indicates relative size and relative distance.', term: 'principal' },
+            { statement: 'Sometimes called the orbital-orientation quantum number.', term: 'magnetic' },
+            { statement: 'Movement of fluid from high to low concentration.', term: 'diffusion' },
+            { statement: 'Which element has the highest Ionization energy.', term: 'helium' },
+            { statement: 'It is the 15th element in the periodic table.', term: 'phosphorus' },
+            { statement: 'Absolute zero.', term: 'kelvin' }
         ],
         physics: [
-            { statement: 'The force that attracts a body towards the center of the earth.', term: 'gravity', image: 'Images/Physics/Physics1.jpg' },
-			{ statement: 'The speed of light in vacuum is approximately.', term: '299792458', image: 'Images/Physics/Physics2.jpg' },
-			{ statement: 'Intersecting in one point of the circle.', term: 'tangent', image: 'Images/Physics/Physics3.png' },
-			{ statement: 'Closest to the Sun.', term: 'aphelion', image: 'Images/Physics/Physics4.jpg' },
-			{ statement: 'Unit of work.', term: 'Joules', image: 'Images/Physics/Physics5.png' },
-			{ statement: 'What is the work if F is perpendicular to D.', term: 'zero', image: 'Images/Physics/Physics6.png' },
-			{ statement: 'Path of each planet around the Sun.', term: 'ellipse', image: 'Images/Physics/Physics7.jpg' },
-			{ statement: 'Inertia of a moving object.', term: 'momentum', image: 'Images/Physics/Physics8.jpg' },
-			{ statement: 'Work done by unit time.', term: 'power', image: 'Images/Physics/Physics9.jpg' },
-			{ statement: 'Value of Gravitation (G).', term: '6.67 x 10^-11', image: 'Images/Physics/Physics10.png' },
-			{ statement: 'Orbital eccentricity of Earth.', term: '0.017', image: 'Images/Physics/Physics11.png' },
-			{ statement: 'Measure of the force that can cause an object to rotate about an axis.', term: 'torque', image: 'Images/Physics/Physics12.jpg' },
-			{ statement: 'Materials that don\'t allow the passage of electric current.', term: 'insulators', image: 'Images/Physics/Physics13.jpg' },
-			{ statement: 'What is the term for the amount of matter in an object?.', term: 'mass', image: 'Images/Physics/Physics14.jpg' },
-			{ statement: 'The resistance an object has to a change in its state of motion.', term: 'inertia', image: 'Images/Physics/Physics15.jpg' },
-			{ statement: 'Which force acts opposite to the direction of motion?', term: 'friction', image: 'Images/Physics/Physics16.png' },
-			{ statement: 'The value of KE if the PE is 0.', term: '100', image: 'Images/Physics/Physics17.png' },
-			{ statement: 'Deals with concepts that need to describe motion.', term: 'kinematics', image: 'Images/Physics/Physics18.jpg' },
-			{ statement: 'A device that measures instantaneous speed.', term: 'speedometer', image: 'Images/Physics/Physics19.jpg' },
-			{ statement: 'What is the change in the state of motion of an object?', term: 'acceleration', image: 'Images/Physics/Physics20.png' }
+            { statement: 'The force that attracts a body towards the center of the earth.', term: 'gravity' },
+            { statement: 'The speed of light in vacuum is approximately.', term: '299792458' },
+            { statement: 'Intersecting in one point of the circle.', term: 'tangent' },
+            { statement: 'Closest to the Sun.', term: 'aphelion' },
+            { statement: 'Unit of work.', term: 'Joules' },
+            { statement: 'What is the work if F is perpendicular to D.', term: 'zero' },
+            { statement: 'Path of each planet around the Sun.', term: 'ellipse' },
+            { statement: 'Inertia of a moving object.', term: 'momentum' },
+            { statement: 'Work done by unit time.', term: 'power' },
+            { statement: 'Value of Gravitation (G).', term: '6.67 x 10^-11' },
+            { statement: 'Orbital eccentricity of Earth.', term: '0.017' },
+            { statement: 'Measure of the force that can cause an object to rotate about an axis.', term: 'torque' },
+            { statement: 'Materials that don\'t allow the passage of electric current.', term: 'insulators' },
+            { statement: 'What is the term for the amount of matter in an object?.', term: 'mass' },
+            { statement: 'The resistance an object has to a change in its state of motion.', term: 'inertia' },
+            { statement: 'Which force acts opposite to the direction of motion?', term: 'friction' },
+            { statement: 'The value of KE if the PE is 0.', term: '100' },
+            { statement: 'Deals with concepts that needs to describe motion.', term: 'kinematics' },
+            { statement: 'A device that measures instantaneous speed.', term: 'speedometer' },
+            { statement: 'What is the change in the state of motion of an object?', term: 'acceleration' }
         ]
     };
     statements.all = [...statements.bio, ...statements.chem, ...statements.physics];
@@ -96,6 +96,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const messageElement = document.getElementById('message');
     const playAgainButton = document.getElementById('play-again');
     const exitButton = document.getElementById('exit');
+
+    // Game Elements
+
+    const MAX_SKIPS = 5;
+    let remainingSkips = MAX_SKIPS;
+
+    // Add a display for remaining skips
+    const skipsElement = document.getElementById('skips');
+    if (!skipsElement) {
+        console.error("Element with ID 'skips' not found in the DOM.");
+        return; // Prevents further execution if the element doesn't exist
+    }
 
     // Audio elements
     const backgroundSound = new Audio('spotifydown.com - boba date.mp3');
@@ -139,7 +151,32 @@ document.addEventListener('DOMContentLoaded', () => {
         instructionsContainer.style.display = 'block';
     }
 
+    function showMessage(msg, hidePlayAgain) {
+        messageElement.textContent = msg;
+        messageContainer.style.display = 'flex';
+    
+        // Hide the play again button if specified
+        if (hidePlayAgain) {
+            playAgainButton.style.display = 'none';
+        } else {
+            playAgainButton.style.display = 'inline-block';
+        }
+    
+        // Automatically hide the message after 2 seconds
+        setTimeout(() => {
+            messageContainer.style.display = 'none';
+            // Only advance if hidePlayAgain is true
+            if (hidePlayAgain) {
+                currentStatementIndex++;
+                displayStatement();
+            }
+        }, 2000);
+    }
+
     readyButton.addEventListener('click', startGame);
+
+    let maxGuesses = 6; 
+    let remainingGuesses = maxGuesses; 
 
     function startGame() {
         instructionsContainer.style.display = 'none';
@@ -147,37 +184,35 @@ document.addEventListener('DOMContentLoaded', () => {
         currentStatementIndex = 0;
         score = 0;
         timeLeft = selectedTime;
+        remainingGuesses = maxGuesses;
+        remainingSkips = MAX_SKIPS; 
         randomizedStatements = shuffleArray(statements[selectedMode].slice());
         displayStatement();
         createKeyboard();
         startTimer();
-        backgroundSound.play(); // Start playing background sound
+        updateGuesses();
+        updateSkips();
+        backgroundSound.play();
+        document.addEventListener('keydown', handleKeyPress); 
     }
 
     function displayStatement() {
-    const currentStatement = randomizedStatements[currentStatementIndex];
-    statementElement.textContent = currentStatement.statement;
+        const currentStatement = randomizedStatements[currentStatementIndex];
+        statementElement.textContent = currentStatement.statement;
+        wordBoxesElement.innerHTML = '';
 
-    const imageElement = document.getElementById('statement-image');
-    if (currentStatement.image) {
-        imageElement.src = currentStatement.image;
-        imageElement.style.display = 'block';
-    } else {
-        imageElement.style.display = 'none';
+        for (let i = 0; i < currentStatement.term.length; i++) {
+            const box = document.createElement('div');
+            box.className = 'word-box';
+            box.setAttribute('data-index', i);
+            box.textContent = '\u00A0'; // Non-breaking space to occupy space
+            wordBoxesElement.appendChild(box);
+        }
+        resetKeyboard();
     }
-
-    wordBoxesElement.innerHTML = '';
-    for (let i = 0; i < currentStatement.term.length; i++) {
-        const box = document.createElement('div');
-        box.className = 'word-box';
-        box.setAttribute('data-index', i);
-        wordBoxesElement.appendChild(box);
-    }
-    resetKeyboard();
-	}
 
     function createKeyboard() {
-        const alphabet = 'abcdefghijklmnopqrstuvwxyz';
+        const alphabet = 'abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()';
         keyboardElement.innerHTML = '';
         for (let letter of alphabet) {
             const key = document.createElement('div');
@@ -196,6 +231,15 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    function handleKeyPress(event) {
+        const letter = event.key.toLowerCase();
+        const validKeys = 'abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()';
+
+        if (validKeys.includes(letter)) {
+            handleLetterClick(letter);
+        }
+    }
+
     function handleLetterClick(letter) {
         const currentStatement = randomizedStatements[currentStatementIndex];
         const term = currentStatement.term;
@@ -204,17 +248,23 @@ document.addEventListener('DOMContentLoaded', () => {
         let correctGuess = false;
         for (let i = 0; i < term.length; i++) {
             if (term[i] === letter) {
-                letterBoxes[i].textContent = letter;
+                letterBoxes[i].textContent = letter; // This will fill in the letter
                 correctGuess = true;
                 score += 10;
             }
         }
 
+        // Handle incorrect guess
         if (correctGuess) {
             correctSound.play();
         } else {
             incorrectSound.play();
             score -= 5;
+            remainingGuesses--; 
+            if (remainingGuesses <= 0) {
+                endGame("No more guesses left! Play Again?");
+                return;
+            }
         }
 
         const key = Array.from(keyboardElement.children).find(k => k.textContent === letter);
@@ -222,11 +272,23 @@ document.addEventListener('DOMContentLoaded', () => {
         key.removeEventListener('click', () => handleLetterClick(letter));
 
         updateScore();
+        updateGuesses();
         checkCompletion();
     }
 
     function updateScore() {
         scoreboardElement.textContent = `Score: ${score}`;
+    }
+
+    function updateGuesses() {
+        const guessesElement = document.getElementById('guesses'); 
+        guessesElement.textContent = `Guesses left: ${remainingGuesses}`; 
+    }
+
+    function updateSkips() {
+        if (skipsElement) { 
+            skipsElement.textContent = `Skips left: ${remainingSkips}`;
+        }
     }
 
     function startTimer() {
@@ -255,33 +317,34 @@ document.addEventListener('DOMContentLoaded', () => {
                 completed = false;
             }
         });
+        
         if (completed) {
             score += 150;
             updateScore();
-            showMessage('Congratulations! You found the term!', false);
-        }
-    }
-
-    function showMessage(msg, showButtons) {
-        messageElement.textContent = msg;
-        messageContainer.style.display = 'flex';
-        if (!showButtons) {
-            setTimeout(() => {
-                messageContainer.style.display = 'none';
-                currentStatementIndex = (currentStatementIndex + 1) % randomizedStatements.length;
-                displayStatement();
-            }, 2000);
+            showMessage('Congratulations! You found the term!', true); // Change to true to show buttons
+            
+            // Advance to the next statement after 2 seconds
+            currentStatementIndex++;
+            if (currentStatementIndex < randomizedStatements.length) {
+                setTimeout(() => {
+                    displayStatement();
+                }, 2000); // Show the next statement after 2 seconds
+            } else {
+                endGame("You've completed all statements! Play Again?");
+            }
         }
     }
 
     function endGame(msg) {
-        backgroundSound.pause(); // Stop the background sound
+        clearInterval(timer);
+        backgroundSound.pause(); 
         gameOverSound.play();
         messageElement.textContent = msg;
         messageContainer.style.display = 'flex';
         playAgainButton.style.display = 'inline-block';
         exitButton.style.display = 'inline-block';
         document.querySelector('.message-buttons').style.display = 'block';
+        document.removeEventListener('keydown', handleKeyPress);
     }
 
     playAgainButton.addEventListener('click', () => {
@@ -296,8 +359,18 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     skipButton.addEventListener('click', () => {
-        currentStatementIndex = (currentStatementIndex + 1) % randomizedStatements.length;
-        displayStatement();
+        if (remainingSkips > 0) { 
+            score -= remainingSkips;
+            remainingSkips--; 
+            updateScore();
+            updateSkips(); 
+            currentStatementIndex = (currentStatementIndex + 1) % randomizedStatements.length;
+            displayStatement();
+    
+            if (remainingSkips === 0) {
+                skipButton.disabled = true;
+            }
+        }
     });
 
     function shuffleArray(array) {

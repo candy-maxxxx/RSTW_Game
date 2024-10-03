@@ -91,6 +91,12 @@ body {
     font-weight: bold;
 }
 
+#guesses {
+    font-size: 20px;
+    margin: 10px 0;
+    color: black; 
+}
+
 .statement {
     margin-bottom: 20px;
     font-size: 20px;
@@ -99,33 +105,22 @@ body {
     border-radius: 5px;
 }
 
-#image-container {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-#statement-image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
 .word-boxes {
     margin-bottom: 20px;
 }
 
 .word-box {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    border: 2px solid #000000;
-    margin: 5px;
-    line-height: 30px;
-    font-size: 18px;
-    border-radius: 5px;
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 40px; 
+    height: 40px; 
+    border: 1px solid #000;
+    margin: 2px; 
+    font-size: 24px; 
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
 }
-
 .keyboard {
     display: flex;
     flex-wrap: wrap;
