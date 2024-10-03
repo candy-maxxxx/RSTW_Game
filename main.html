@@ -4,12 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STErM - Term Builder & Skibidi Game</title>
-    <link rel="stylesheet" href="styless.css"> <!-- Updated to the correct CSS filename -->
+    <link rel="stylesheet" href="styless.css"> <!-- Ensure the CSS filename is correct -->
 </head>
 <body>
     <!-- Intro Page -->
     <div id="intro-page" class="intro-page">
-        <h1>Welcome to STErM</h1>
+        <h1>Welcome to STErM</h1> <!-- Unified the heading -->
+        
+        <!-- School Level Selection -->
+        <div class="school-level-selection">
+            <h2>Select School Level</h2>
+            <button class="level-button" id="level-elementary">Elementary</button>
+            <button class="level-button" id="level-highschool">High School</button>
+            <button class="level-button" id="level-college">College</button>
+        </div>
+        
+        <!-- Mode Selection -->
         <div class="mode-selection">
             <h2>Select Mode</h2>
             <button class="mode-button" id="mode-bio">Bio</button>
@@ -17,12 +27,15 @@
             <button class="mode-button" id="mode-physics">Physics</button>
             <button class="mode-button" id="mode-all">Random</button>
         </div>
+        
+        <!-- Time Selection -->
         <div class="time-selection">
             <h2>Select Time Limit</h2>
             <button class="time-button" id="time-2-30">2 mins</button>
             <button class="time-button" id="time-5-00">5 mins</button>
             <button class="time-button" id="time-10-00">10 mins</button>
         </div>
+        
         <button id="start-game" class="start-button" disabled>Start Game</button>
     </div>
     
@@ -35,16 +48,16 @@
 
     <!-- Game Container -->
     <div id="game-container" class="game-container" style="display: none;">
-        <h1 class="game-title">STErM</h1>
+        <h1 class="game-title">STErM</h1> <!-- Unified the game title -->
         <div class="top-section">
             <div class="timer" id="timer">Time: 02:30</div>
-            <div id="guesses">Guesses left: 6</div>
-            <div id="skips">Skips left: 5</div>
+            <div id="guesses">Guesses left: 6</div> <!-- From JavaScript -->
+            <div id="skips">Skips left: 5</div> <!-- From JavaScript -->
             <div class="scoreboard" id="scoreboard">Score: 0</div>
         </div>
         <div class="statement" id="statement">The statement will be displayed here</div>
-        <div id="image-container">
-            <img id="statement-image" src="" alt="Related Image" style="display:none;">
+        <div id="image-container" style="">
+            <img id="statement-image" style="display:none;" alt="Term image" />
         </div>
         <div class="word-boxes" id="word-boxes"></div>
         <div class="keyboard" id="keyboard"></div>
@@ -60,6 +73,7 @@
         </div>
     </div>
     
+    <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
