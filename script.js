@@ -282,8 +282,13 @@ document.addEventListener('DOMContentLoaded', () => {
 		{statement: 'The acid that is glucose broken down in the first stage of carbohydrate metabolism', term: 'pyruvicacid'},
 		{statement: 'The term given to fatty acid that has more than one set of double bonds between carbons', term: 'polyunsaturated'},
 		{statement: 'The process by which amino acid loses its amino group' , term:'deamination'},
-		{statement: ' One-celled algae enclosed in minute two-part silic shells are called', term:'diatoms'}
-			
+		{statement: ' One-celled algae enclosed in minute two-part silic shells are called', term:'diatoms'},
+		  { statement: 'The process by which an organism regulates its internal environment to maintain a stable, constant condition.', term: 'homeostasis' },
+		{ statement: 'The enzyme that facilitates the joining of DNA strands during replication.', term: 'dnaligase' },
+	        { statement: 'The type of RNA that carries amino acids to ribosomes during protein synthesis.', term: 'transferRNA' },
+	        { statement: 'The cell structure that contains enzymes for digestion and waste removal.', term: 'lysosome' },
+	        { statement: 'The organelle that is responsible for the synthesis of lipids and steroids in the cell.', term: 'smoothendoplasmicreticulum' }
+					
             ],
             chem: [
                 { 
@@ -310,7 +315,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     statement: 'It is the 15th element in the periodic table.', 
                     term: 'phosphorus',
                     image: 'Images/Chem/Chem19.png' // Updated image path
-                }
+                },
+		{ statement: 'The thermodynamic function that describes the disorder of a system.', term: 'entropy' },
+	        { statement: 'A chemical species that gains electrons in a redox reaction.', term: 'oxidizingagent' },
+	        { statement: 'The process by which a liquid is converted to a solid at a specific temperature.', term: 'freezingpoint' },
+	        { statement: 'The bond formed between atoms when they share one or more pairs of electrons unequally.', term: 'polar covalentbond' },
+	        { statement: 'The type of chemical reaction in which a single compound breaks down into two or more elements or new compounds.', term: 'decompositionreaction' }
             ],
             physics: [
                 { 
@@ -337,8 +347,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     statement: 'The unit of current.', 
                     term: 'amperes',
                     image: 'Images/Physics/Physics4.png' // Updated image path
-                }
-            ]
+                },
+		      { statement: 'The principle stating that the total energy of an isolated system remains constant.', term: 'conservationofenergy' },
+	        { statement: 'The phenomenon where waves bend around the edges of an obstacle or opening.', term: 'diffraction' },
+	        { statement: 'The fundamental interaction responsible for the attraction or repulsion between electric charges.', term: 'electromagneticforce' },
+	        { statement: 'The quantum number that describes the shape of an atomic orbital.', term: 'azimuthalquantumnumber' },
+	        { statement: 'The phenomenon where certain materials emit light when exposed to radiation.', term: 'fluorescence' }
+	    ]
         }
     };
 
