@@ -248,8 +248,8 @@ document.addEventListener('DOMContentLoaded', () => {
 		{statement: ' What are rings of muscle which CLOSE body openings such as the lips called?', term: 'sphincters'},
 		{statement: 'Is studies of the human body, what is used to describ a blood-filled sac formed by an outpouching in an arterial or venous wall? ', term:'aneurysm'},
 		{statement: ' The chromosomes responsible for characteristics other than sex', term:'autosomes'},
-                {statement: 'The genetic term that describes the situation when a part of a chromosome is broken off and lost', term: 'chromosoal deletion'},
-		{statement: 'The acid that is glucose broken down in the first stage of carbohydrate metabolism', term: 'pyruvic acid'},
+                {statement: 'The genetic term that describes the situation when a part of a chromosome is broken off and lost', term: 'chromosoaldeletion'},
+		{statement: 'The acid that is glucose broken down in the first stage of carbohydrate metabolism', term: 'pyruvicacid'},
 		{statement: 'The term given to fatty acid that has more than one set of double bonds between carbons', term: 'polyunsaturated'},
 		{statement: 'The process by which amino acid loses its amino group' , term:'deamination'},
 		{statement: ' One-celled algae enclosed in minute two-part silic shells are called', term:'diatoms'}
