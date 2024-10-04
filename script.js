@@ -53,20 +53,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 { statement: 'Which part of the flower is responsible for producing seeds (located inside the ovary)?', term: 'ovules' },
                 { statement: 'What is the name of the smallest bone in the human body (it is located in the ear)?', term: 'stapes' },
                 { statement: 'Which part of the tree provides stability and holds the tree upright?', term: 'trunk' },
-                 { statement: 'The gas that plants need to make their food.', term: 'carbondioxide' },
-	        { statement: 'The part of the plant that makes seeds.', term: 'flower' },
-	        { statement: 'The process in which a seed grows into a new plant.', term: 'germination' },
-	        { statement: 'The organ in your body that pumps blood.', term: 'heart' },
-	        { statement: 'The organ that helps you breathe in oxygen and exhale carbon dioxide.', term: 'lungs' },
-	        { statement: 'The body part that helps fish breathe underwater.', term: 'gills' },
-	        { statement: 'The part of the skeleton that protects the brain.', term: 'skull' },
-	        { statement: 'The insect that makes honey.', term: 'bee' },
-	        { statement: 'The type of animal that has feathers and can usually fly.', term: 'bird' },
-	        { statement: 'The life stage of a butterfly after it hatches from an egg.', term: 'larva' },
-		{ 
+                { 
                     statement: 'The study of naming and classifying organisms.', 
                     term: 'taxonomy',
-                    image: 'Images/Bio/elementary/taxonomy.png'
                 },
                 { 
                     statement: 'This organ stores urine.', 
@@ -99,17 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     statement: 'A positive charged ion.', 
                     term: 'cation',
                     image: 'Images/Chem/Chem6.png' // Updated image path
-                },
-		{ statement: 'The state of matter that has a fixed shape and volume.', term: 'solid' },
-	        { statement: 'The state of matter that takes the shape of its container.', term: 'liquid' },
-	        { statement: 'The smallest unit of a chemical element.', term: 'atom' },
-	        { statement: 'The substance that dissolves in a liquid to form a solution.', term: 'solute' },
-	        { statement: 'The chemical element that is important for breathing and makes up part of water.', term: 'oxygen' },
-	        { statement: 'The change of state from a liquid to a gas.', term: 'evaporation' },
-	        { statement: 'The substance that is used to put out fires and is a compound of hydrogen and oxygen.', term: 'water' },
-	        { statement: 'The process when a solid turns directly into a gas without becoming a liquid.', term: 'sublimation' },
-	        { statement: 'The type of mixture where you can see different parts, like a salad.', term: 'heterogeneousmixture' },
-	        { statement: 'The process by which a substance changes from a solid to a liquid.', term: 'melting' }
+                }
             ],
             physics: [
                 { 
@@ -141,17 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	        { statement: 'When two objects collide.', term: 'collision' },
 	        { statement: 'The change in an object’s position.', term: 'displacement' },
 	        { statement: 'A body\'s tendency to resist motion.', term: 'inertia' },
-	        { statement: 'Measurement of magnitude and direction of movement.', term: 'vector' },
-		{ statement: 'The force that keeps us on the ground.', term: 'gravity' },
-	        { statement: 'The energy something has because it is moving.', term: 'kineticenergy' },
-	        { statement: 'The invisible push or pull that can make something move.', term: 'force' },
-	        { statement: 'The tool used to measure temperature.', term: 'thermometer' },
-	        { statement: 'The form of energy that makes things warm.', term: 'heat' },
-	        { statement: 'The type of energy we get from the Sun.', term: 'solarradiation' },
-	        { statement: 'The flow of electric charge that powers lights and appliances.', term: 'electricity' },
-	        { statement: 'The simple machine that is used to lift objects, like a seesaw.', term: 'lever' },
-	        { statement: 'The distance between two points.', term: 'length' },
-	        { statement: 'The kind of wave that travels through the air and allows us to hear sounds.', term: 'soundwave' }
+	        { statement: 'Measurement of magnitude and direction of movement.', term: 'vector' }
             ]
         },
         highschool: {
@@ -276,19 +245,14 @@ document.addEventListener('DOMContentLoaded', () => {
 		{statement: 'this is known as the hardening of the arteries', term: 'atheriosclerosis'},
 		{statement: ' The alternative forms of gene at the same locus on homologous chromosomes are called what? ',term: 'alleles'},
 		{statement: ' What are rings of muscle which CLOSE body openings such as the lips called?', term: 'sphincters'},
-		{statement: 'Is studies of the human body, what is used to describe a blood-filled sac formed by an outpouching in an arterial or venous wall? ', term:'aneurysm'},
+		{statement: 'Is studies of the human body, what is used to describ a blood-filled sac formed by an outpouching in an arterial or venous wall? ', term:'aneurysm'},
 		{statement: ' The chromosomes responsible for characteristics other than sex', term:'autosomes'},
                 {statement: 'The genetic term that describes the situation when a part of a chromosome is broken off and lost', term: 'chromosoaldeletion'},
 		{statement: 'The acid that is glucose broken down in the first stage of carbohydrate metabolism', term: 'pyruvicacid'},
 		{statement: 'The term given to fatty acid that has more than one set of double bonds between carbons', term: 'polyunsaturated'},
 		{statement: 'The process by which amino acid loses its amino group' , term:'deamination'},
-		{statement: ' One-celled algae enclosed in minute two-part silic shells are called', term:'diatoms'},
-		  { statement: 'The process by which an organism regulates its internal environment to maintain a stable, constant condition.', term: 'homeostasis' },
-		{ statement: 'The enzyme that facilitates the joining of DNA strands during replication.', term: 'dnaligase' },
-	        { statement: 'The type of RNA that carries amino acids to ribosomes during protein synthesis.', term: 'transferRNA' },
-	        { statement: 'The cell structure that contains enzymes for digestion and waste removal.', term: 'lysosome' },
-	        { statement: 'The organelle that is responsible for the synthesis of lipids and steroids in the cell.', term: 'smoothendoplasmicreticulum' }
-					
+		{statement: ' One-celled algae enclosed in minute two-part silic shells are called', term:'diatoms'}
+			
             ],
             chem: [
                 { 
@@ -315,12 +279,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     statement: 'It is the 15th element in the periodic table.', 
                     term: 'phosphorus',
                     image: 'Images/Chem/Chem19.png' // Updated image path
-                },
-		{ statement: 'The thermodynamic function that describes the disorder of a system.', term: 'entropy' },
-	        { statement: 'A chemical species that gains electrons in a redox reaction.', term: 'oxidizingagent' },
-	        { statement: 'The process by which a liquid is converted to a solid at a specific temperature.', term: 'freezingpoint' },
-	        { statement: 'The bond formed between atoms when they share one or more pairs of electrons unequally.', term: 'polar covalentbond' },
-	        { statement: 'The type of chemical reaction in which a single compound breaks down into two or more elements or new compounds.', term: 'decompositionreaction' }
+                }
             ],
             physics: [
                 { 
@@ -347,13 +306,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     statement: 'The unit of current.', 
                     term: 'amperes',
                     image: 'Images/Physics/Physics4.png' // Updated image path
-                },
-		      { statement: 'The principle stating that the total energy of an isolated system remains constant.', term: 'conservationofenergy' },
-	        { statement: 'The phenomenon where waves bend around the edges of an obstacle or opening.', term: 'diffraction' },
-	        { statement: 'The fundamental interaction responsible for the attraction or repulsion between electric charges.', term: 'electromagneticforce' },
-	        { statement: 'The quantum number that describes the shape of an atomic orbital.', term: 'azimuthalquantumnumber' },
-	        { statement: 'The phenomenon where certain materials emit light when exposed to radiation.', term: 'fluorescence' }
-	    ]
+                }
+            ]
         }
     };
 
@@ -374,7 +328,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let randomizedStatements = [];
     let currentStatementIndex = 0;
     let score = 0;
-    let timeLeft = 150; // Default to 2:30 mins (150 seconds)
+    let timeLeft = 120; // Default to 2:30 mins (150 seconds)
     let timer;
     let selectedSchoolLevel = '';
     let selectedMode = '';
