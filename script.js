@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     statement: 'What is the term for the amount of matter in an object?', 
                     term: 'mass',
                     image: 'Images/Physics/Physics14.jpg' // Updated image path
-                }
+                },
 		{ statement: 'The measurement of magnitude.', term: 'scalar' },
 	        { statement: 'When two objects collide.', term: 'collision' },
 	        { statement: 'The change in an object’s position.', term: 'displacement' },
