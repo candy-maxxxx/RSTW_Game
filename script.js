@@ -238,7 +238,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     statement: 'Requires energy since there is an active contraction of the muscles to reduce the pressure of gas inside the lungs.', 
                     term: 'inspiration',
                     image: 'Images/Bio/Bio15.png' // Updated image path
-                }
+                },
 		{
 		statement: 'during this phase of mitosis the chromosomes line up ', term: 'metaphase'
 		},
