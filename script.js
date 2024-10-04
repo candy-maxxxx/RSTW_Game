@@ -41,9 +41,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 {   statement: 'What do we call animals that are active during the night?',
 		     term: 'nocturnal' 
 		},
-		{ statement: 'What do we call the living organisms that break down dead plants and animals?', term: 'decomposers' },
-                { statement: 'Which part of the tree helps it make food?', term: 'leaves' },
-                { statement: 'What part of the human body controls everything we do, like moving and thinking?', term: 'brain' },
+		{ statement: 'What do we call the living organisms that break down dead plants and animals?', 
+		     term: 'decomposers' 
+		},
+                { statement: 'Which part of the tree helps it make food?', 
+		     term: 'leaves' 
+		},
+                { statement: 'What part of the human body controls everything we do, like moving and thinking?', 
+		     term: 'brain' 
+		},
                 { statement: 'What is the name of the small openings on the underside of leaves that help plants breathe?', term: 'stomata' },
                 { statement: 'What is the hard outer covering of insects called?', term: 'exoskeleton' },
                 { statement: 'What do we call the process where caterpillars turn into butterflies?', term: 'metamorphosis' },
@@ -56,6 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { 
                     statement: 'The study of naming and classifying organisms.', 
                     term: 'taxonomy',
+                    image: 'Images/Bio/elementary/taxonomy.png'
                 },
                 { 
                     statement: 'This organ stores urine.', 
@@ -69,6 +76,18 @@ document.addEventListener('DOMContentLoaded', () => {
                     term: 'atom',
                     image: 'Images/Chem/Chem1.png' // Updated image path
                 },
+		{
+			statement: 'What do you call the change of state from liquid to gas?',
+			term: 'evaporation'
+		},
+		{
+	    		statement: 'What is the main gas found in the air we breathe?',
+			term: 'nitrogen'
+		},
+		{
+	    		statement: 'What is the hardest natural substance on Earth?',
+			term: 'diamond'
+		},
                 { 
                     statement: 'A substance made up of only one type of atom.', 
                     term: 'element',
@@ -88,7 +107,16 @@ document.addEventListener('DOMContentLoaded', () => {
                     statement: 'A positive charged ion.', 
                     term: 'cation',
                     image: 'Images/Chem/Chem6.png' // Updated image path
-                }
+                },
+		{
+			statement: 'What is the process of turning a solid directly into a gas called?',
+			term: 'sublimation'
+		},
+		{
+			statement: 'What element do all living things contain?'
+			term: 'carbon'
+		}
+		    
             ],
             physics: [
                 { 
@@ -328,7 +356,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let randomizedStatements = [];
     let currentStatementIndex = 0;
     let score = 0;
-    let timeLeft = 120; // Default to 2:30 mins (150 seconds)
+    let timeLeft = 150; // Default to 2:30 mins (150 seconds)
     let timer;
     let selectedSchoolLevel = '';
     let selectedMode = '';
