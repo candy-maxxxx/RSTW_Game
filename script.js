@@ -8,310 +8,332 @@ document.addEventListener('DOMContentLoaded', () => {
                 { 
                     statement: 'The powerhouse of the cell.', 
                     term: 'mitochondria',
-                    image: 'Images/Bio/Bio1.png' // Updated image path
+                    image: 'Images/Bio/Bio1.png' 
                 },
                 { 
                     statement: 'The process by which plants make their food.', 
                     term: 'photosynthesis',
-                    image: 'Images/Bio/Bio2.png' // Updated image path
+                    image: 'Images/Bio/Bio2.png' 
                 },
                 { 
                     statement: 'A hollow, cone-shaped pump which is muscular in nature.', 
                     term: 'heart',
-                    image: 'Images/Bio/Bio7.png' // Updated image path
+                    image: 'Images/Bio/Bio7.png' 
                 },
-		{   statement: 'Which part of the plant holds it upright in the ground and absorbs water and nutrients?',
-		    term: 'roots' 
-		},
-		{   statement: 'What is the largest organ in the human body?',
-		    term: 'skin' 
-		},
-                {   statement: 'What do we call animals that eat only plants?',
-		    term: 'herbivores' 
-		},
-                {   statement: 'Which animal is known for its ability to regenerate its tail if it gets cut off?',
-		    term: 'lizard' 
-		},
-                {   statement: 'Which part of the flower becomes the fruit?', 
-		    term: 'ovary' 
-		},
-                {   statement: 'What do bees collect from flowers to make honey?', 
-		    term: 'nectar'
-		},
-                {   statement: 'What do we call animals that are active during the night?',
-		     term: 'nocturnal' 
-		},
-		{ statement: 'What do we call the living organisms that break down dead plants and animals?', term: 'decomposers' },
-                { statement: 'Which part of the tree helps it make food?', term: 'leaves' },
-                { statement: 'What part of the human body controls everything we do, like moving and thinking?', term: 'brain' },
-                { statement: 'What is the name of the small openings on the underside of leaves that help plants breathe?', term: 'stomata' },
-                { statement: 'What is the hard outer covering of insects called?', term: 'exoskeleton' },
-                { statement: 'What do we call the process where caterpillars turn into butterflies?', term: 'metamorphosis' },
-                { statement: 'What is a baby frog called?', term: 'tadpole' },
-                { statement: 'What type of animal lays eggs but feeds its babies with milk (a monotreme)?', term: 'platypus' },
-                { statement: 'What do whales use to communicate with each other underwater?', term: 'echolocation' },
-                { statement: 'Which part of the flower is responsible for producing seeds (located inside the ovary)?', term: 'ovules' },
-                { statement: 'What is the name of the smallest bone in the human body (it is located in the ear)?', term: 'stapes' },
-                { statement: 'Which part of the tree provides stability and holds the tree upright?', term: 'trunk' },
+                { 
+                    statement: 'Which part of the plant holds it upright in the ground and absorbs water and nutrients?', 
+                    term: 'roots' 
+                },
+                { 
+                    statement: 'What is the largest organ in the human body?', 
+                    term: 'skin' 
+                },
+                { 
+                    statement: 'What do we call animals that eat only plants?', 
+                    term: 'herbivores' 
+                },
+                { 
+                    statement: 'Which animal is known for its ability to regenerate its tail if it gets cut off?', 
+                    term: 'lizard' 
+                },
+                { 
+                    statement: 'Which part of the flower becomes the fruit?', 
+                    term: 'ovary' 
+                },
+                { 
+                    statement: 'What do bees collect from flowers to make honey?', 
+                    term: 'nectar' 
+                },
+                { 
+                    statement: 'What do we call animals that are active during the night?', 
+                    term: 'nocturnal' 
+                },
+                { 
+                    statement: 'What do we call the living organisms that break down dead plants and animals?', 
+                    term: 'decomposers' 
+                },
+                { 
+                    statement: 'Which part of the tree helps it make food?', 
+                    term: 'leaves' 
+                },
+                { 
+                    statement: 'What part of the human body controls everything we do, like moving and thinking?', 
+                    term: 'brain' 
+                },
+                { 
+                    statement: 'What is the name of the small openings on the underside of leaves that help plants breathe?', 
+                    term: 'stomata' 
+                },
+                { 
+                    statement: 'What is the hard outer covering of insects called?', 
+                    term: 'exoskeleton' 
+                },
+                { 
+                    statement: 'What do we call the process where caterpillars turn into butterflies?', 
+                    term: 'metamorphosis' 
+                },
+                { 
+                    statement: 'What is a baby frog called?', 
+                    term: 'tadpole' 
+                },
+                { 
+                    statement: 'What type of animal lays eggs but feeds its babies with milk (a monotreme)?', 
+                    term: 'platypus' 
+                },
+                { 
+                    statement: 'What do whales use to communicate with each other underwater?', 
+                    term: 'echolocation' 
+                },
+                { 
+                    statement: 'Which part of the flower is responsible for producing seeds (located inside the ovary)?', 
+                    term: 'ovules' 
+                },
+                { 
+                    statement: 'What is the name of the smallest bone in the human body (it is located in the ear)?', 
+                    term: 'stapes' 
+                },
+                { 
+                    statement: 'Which part of the tree provides stability and holds the tree upright?', 
+                    term: 'trunk' 
+                },
                 { 
                     statement: 'The study of naming and classifying organisms.', 
                     term: 'taxonomy',
-                    image: 'Images/Bio/elementary/taxonomy.png'
+                    image: 'Images/Bio/elementary/taxonomy.png' 
                 },
                 { 
                     statement: 'This organ stores urine.', 
                     term: 'bladder',
-                    image: 'Images/Bio/Bio11.png' // Updated image path
+                    image: 'Images/Bio/Bio11.png' 
                 }
             ],
             chem: [
                 { 
                     statement: 'The basic unit of a chemical element.', 
                     term: 'atom',
-                    image: 'Images/Chem/Chem1.png' // Updated image path
+                    image: 'Images/Chem/Chem1.png' 
                 },
                 { 
                     statement: 'A substance made up of only one type of atom.', 
                     term: 'element',
-                    image: 'Images/Chem/Chem2.png' // Updated image path
+                    image: 'Images/Chem/Chem2.png' 
                 },
                 { 
                     statement: 'Another word for electron.', 
                     term: 'valence',
-                    image: 'Images/Chem/Chem3.png' // Updated image path
+                    image: 'Images/Chem/Chem3.png' 
                 },
                 { 
                     statement: 'What does OH stand for?', 
                     term: 'hydroxide',
-                    image: 'Images/Chem/Chem5.png' // Updated image path
+                    image: 'Images/Chem/Chem5.png' 
                 },
                 { 
                     statement: 'A positive charged ion.', 
                     term: 'cation',
-                    image: 'Images/Chem/Chem6.png' // Updated image path
+                    image: 'Images/Chem/Chem6.png' 
                 }
             ],
             physics: [
                 { 
                     statement: 'The force that attracts a body towards the center of the earth.', 
                     term: 'gravity',
-                    image: 'Images/Physics/Physics1.jpg' // Updated image path
+                    image: 'Images/Physics/Physics1.jpg' 
                 },
                 { 
                     statement: 'The speed of light in vacuum is approximately.', 
                     term: '299792458',
-                    image: 'Images/Physics/Physics2.jpg' // Updated image path
+                    image: 'Images/Physics/Physics2.jpg' 
                 },
                 { 
                     statement: 'Unit of work.', 
                     term: 'joules',
-                    image: 'Images/Physics/Physics5.png' // Updated image path
+                    image: 'Images/Physics/Physics5.png' 
                 },
                 { 
-                    statement: 'Materials that don’t allow the passage of electric current.', 
+                    statement: 'Materials that do not allow the passage of electric current.', 
                     term: 'insulators',
-                    image: 'Images/Physics/Physics13.jpg' // Updated image path
+                    image: 'Images/Physics/Physics13.jpg' 
                 },
                 { 
                     statement: 'What is the term for the amount of matter in an object?', 
                     term: 'mass',
-                    image: 'Images/Physics/Physics14.jpg' // Updated image path
+                    image: 'Images/Physics/Physics14.jpg' 
                 },
-		{ statement: 'The measurement of magnitude.', term: 'scalar' },
-	        { statement: 'When two objects collide.', term: 'collision' },
-	        { statement: 'The change in an object’s position.', term: 'displacement' },
-	        { statement: 'A body\'s tendency to resist motion.', term: 'inertia' },
-	        { statement: 'Measurement of magnitude and direction of movement.', term: 'vector' }
+                { 
+                    statement: 'The measurement of magnitude.', 
+                    term: 'scalar' 
+                },
+                { 
+                    statement: 'When two objects collide.', 
+                    term: 'collision' 
+                },
+                { 
+                    statement: 'The change in an object’s position.', 
+                    term: 'displacement' 
+                },
+                { 
+                    statement: 'A body\'s tendency to resist motion.', 
+                    term: 'inertia' 
+                },
+                { 
+                    statement: 'Measurement of magnitude and direction of movement.', 
+                    term: 'vector' 
+                }
             ]
         },
         highschool: {
             bio: [
                 { 
-                    statement: 'A change in genetic composition of a population from generation to generation.', 
-                    term: 'evolution',
-                    image: 'Images/Bio/Bio3.png' // Updated image path
+                    statement: 'What molecule carries genetic information in living organisms?', 
+                    term: 'DNA',
+                    image: 'Images/Bio/BioHS1.png' 
                 },
                 { 
-                    statement: 'A phenomenon that refers to a permanent alteration.', 
-                    term: 'mutation',
-                    image: 'Images/Bio/Bio4.png' // Updated image path
+                    statement: 'Process by which organisms convert glucose and oxygen into energy.', 
+                    term: 'cellular respiration',
+                    image: 'Images/Bio/BioHS2.png' 
                 },
                 { 
-                    statement: 'Gallus gallus is the scientific name of what?', 
-                    term: 'chicken',
-                    image: 'Images/Bio/Bio8.png' // Updated image path
+                    statement: 'Where does photosynthesis take place in plant cells?', 
+                    term: 'chloroplast',
+                    image: 'Images/Bio/BioHS3.png' 
                 },
                 { 
-                    statement: 'The inner lining in embryology.', 
-                    term: 'endoderm',
-                    image: 'Images/Bio/Bio5.png' // Updated image path
+                    statement: 'What is the basic structural and functional unit of life?', 
+                    term: 'cell' 
                 },
                 { 
-                    statement: 'The second act of swallowing.', 
-                    term: 'pharyngeal',
-                    image: 'Images/Bio/Bio9.png' // Updated image path
-                },
-                { 
-                    statement: 'The filtered blood in the excretory system.', 
-                    term: 'urine',
-                    image: 'Images/Bio/Bio16.png' // Updated image path
+                    statement: 'What is the division of a cell nucleus resulting in two daughter cells?', 
+                    term: 'mitosis' 
                 }
             ],
             chem: [
                 { 
-                    statement: 'Simplest type of chemical formula.', 
-                    term: 'empirical',
-                    image: 'Images/Chem/Chem8.png' // Updated image path
+                    statement: 'The table that arranges elements by their chemical properties.', 
+                    term: 'periodic table',
+                    image: 'Images/Chem/ChemHS1.png' 
                 },
                 { 
-                    statement: 'SnO2 + 2H2 -> Sn + 2H2O, what does "Sn + 2H2O" stand for?', 
-                    term: 'products',
-                    image: 'Images/Chem/Chem9.png' // Updated image path
+                    statement: 'The attraction between two oppositely charged ions.', 
+                    term: 'ionic bond',
+                    image: 'Images/Chem/ChemHS2.png' 
                 },
                 { 
-                    statement: 'It is the 11th element in the periodic table.', 
-                    term: 'sodium',
-                    image: 'Images/Chem/Chem10.png' // Updated image path
+                    statement: 'A type of bond where electrons are shared between atoms.', 
+                    term: 'covalent bond' 
                 },
                 { 
-                    statement: 'A+B -> AB is an example of?', 
-                    term: 'synthesis',
-                    image: 'Images/Chem/Chem12.png' // Updated image path
+                    statement: 'The ability of a substance to burn in the presence of oxygen.', 
+                    term: 'combustion' 
                 },
                 { 
-                    statement: 'The relationship between volume and pressure in Boyle’s Law is?', 
-                    term: 'inverse',
-                    image: 'Images/Chem/Chem17.png' // Updated image path
+                    statement: 'The process by which a solid changes directly into gas without passing through the liquid state.', 
+                    term: 'sublimation' 
                 }
             ],
             physics: [
                 { 
-                    statement: 'Path of each planet around the Sun.', 
-                    term: 'ellipse',
-                    image: 'Images/Physics/Physics7.jpg' // Updated image path
+                    statement: 'The rate at which work is done.', 
+                    term: 'power',
+                    image: 'Images/Physics/PhysicsHS1.jpg' 
                 },
                 { 
-                    statement: 'Inertia of a moving object.', 
-                    term: 'momentum',
-                    image: 'Images/Physics/Physics8.jpg' // Updated image path
-                },
-                { 
-                    statement: 'Measure of the force that can cause an object to rotate about an axis.', 
-                    term: 'torque',
-                    image: 'Images/Physics/Physics12.jpg' // Updated image path
-                },
-                { 
-                    statement: 'The resistance an object has to a change in its state of motion.', 
+                    statement: 'The property of an object that resists changes in motion.', 
                     term: 'inertia',
-                    image: 'Images/Physics/Physics15.jpg' // Updated image path
+                    image: 'Images/Physics/PhysicsHS2.jpg' 
                 },
                 { 
-                    statement: 'Which force acts opposite to the direction of motion?', 
-                    term: 'friction',
-                    image: 'Images/Physics/Physics16.png' // Updated image path
+                    statement: 'Force that opposes the relative motion of two surfaces.', 
+                    term: 'friction' 
+                },
+                { 
+                    statement: 'The acceleration due to gravity on Earth is approximately.', 
+                    term: '9.8 m/s²' 
+                },
+                { 
+                    statement: 'The point at which an object’s weight is evenly dispersed.', 
+                    term: 'center of gravity' 
                 }
             ]
         },
         college: {
             bio: [
                 { 
-                    statement: 'In phylogeny, these are the descendants of a common ancestor.', 
-                    term: 'monophyletic',
-                    image: 'Images/Bio/Bio6.png' // Updated image path
+                    statement: 'What is the primary molecule that carries energy in cells?', 
+                    term: 'ATP',
+                    image: 'Images/Bio/BioCollege1.png' 
                 },
                 { 
-                    statement: 'A type of glial cells that connects to the myelin sheaths.', 
-                    term: 'oligodendrocyte',
-                    image: 'Images/Bio/Bio10.png' // Updated image path
+                    statement: 'The process by which cells divide to produce gametes.', 
+                    term: 'meiosis',
+                    image: 'Images/Bio/BioCollege2.png' 
                 },
                 { 
-                    statement: 'Entrance to the kidney.', 
-                    term: 'hilum',
-                    image: 'Images/Bio/Bio13.png' // Updated image path
+                    statement: 'The organelle responsible for protein synthesis.', 
+                    term: 'ribosome',
+                    image: 'Images/Bio/BioCollege3.png' 
                 },
                 { 
-                    statement: 'In a diagram of the heart, what does the red color stand for?', 
-                    term: 'aorta',
-                    image: 'Images/Bio/Bio14.png' // Updated image path
+                    statement: 'What type of RNA carries genetic information from DNA to the ribosome?', 
+                    term: 'mRNA' 
                 },
                 { 
-                    statement: 'Requires energy since there is an active contraction of the muscles to reduce the pressure of gas inside the lungs.', 
-                    term: 'inspiration',
-                    image: 'Images/Bio/Bio15.png' // Updated image path
-                },
-		{
-		statement: 'during this phase of mitosis the chromosomes line up ', term: 'metaphase'
-		},
-		{statement: 'the cellular organelle that contains enzymes that are considered digestive', term: 'lysosomes'},
-		{statement: 'this is known as the hardening of the arteries', term: 'atheriosclerosis'},
-		{statement: ' The alternative forms of gene at the same locus on homologous chromosomes are called what? ',term: 'alleles'},
-		{statement: ' What are rings of muscle which CLOSE body openings such as the lips called?', term: 'sphincters'},
-		{statement: 'Is studies of the human body, what is used to describ a blood-filled sac formed by an outpouching in an arterial or venous wall? ', term:'aneurysm'},
-		{statement: ' The chromosomes responsible for characteristics other than sex', term:'autosomes'},
-                {statement: 'The genetic term that describes the situation when a part of a chromosome is broken off and lost', term: 'chromosoal deletion'},
-		{statement: 'The acid that is glucose broken down in the first stage of carbohydrate metabolism', term: 'pyruvic acid'},
-		{statement: 'The term given to fatty acid that has more than one set of double bonds between carbons', term: 'polyunsaturated'},
-		{statement: 'The process by which amino acid loses its amino group' , term:'deamination'},
-		{statement: ' One-celled algae enclosed in minute two-part silic shells are called', term:'diatoms'}
-			
+                    statement: 'The process by which mRNA is decoded to produce a protein.', 
+                    term: 'translation' 
+                }
             ],
             chem: [
                 { 
-                    statement: 'It is a quantum number that indicates relative size and relative distance.', 
-                    term: 'principal',
-                    image: 'Images/Chem/Chem15.png' // Updated image path
+                    statement: 'What law states that the total energy of an isolated system is constant?', 
+                    term: 'law of conservation of energy',
+                    image: 'Images/Chem/ChemCollege1.png' 
                 },
                 { 
-                    statement: 'Sometimes called the orbital-orientation quantum number.', 
-                    term: 'magnetic',
-                    image: 'Images/Chem/Chem16.png' // Updated image path
+                    statement: 'The constant for ideal gas in PV=nRT equation.', 
+                    term: 'R constant',
+                    image: 'Images/Chem/ChemCollege2.png' 
                 },
                 { 
-                    statement: 'Movement of fluid from high to low concentration.', 
-                    term: 'diffusion',
-                    image: 'Images/Chem/Chem17.png' // Updated image path
+                    statement: 'A process that releases heat to the surroundings.', 
+                    term: 'exothermic reaction' 
                 },
                 { 
-                    statement: 'Which element has the highest ionization energy?', 
-                    term: 'helium',
-                    image: 'Images/Chem/Chem18.png' // Updated image path
+                    statement: 'What theory explains the behavior of gases in terms of particles in motion?', 
+                    term: 'kinetic molecular theory' 
                 },
                 { 
-                    statement: 'It is the 15th element in the periodic table.', 
-                    term: 'phosphorus',
-                    image: 'Images/Chem/Chem19.png' // Updated image path
+                    statement: 'What is the principle stating that in a chemical equilibrium, a system will adjust to counteract any changes imposed on it?', 
+                    term: 'Le Chatelier’s Principle' 
                 }
             ],
             physics: [
                 { 
-                    statement: 'What is the work if F is perpendicular to D?', 
-                    term: 'zero',
-                    image: 'Images/Physics/Physics6.png' // Updated image path
+                    statement: 'The fundamental force responsible for the attraction between two masses.', 
+                    term: 'gravitational force',
+                    image: 'Images/Physics/PhysicsCollege1.jpg' 
                 },
                 { 
-                    statement: 'The value of Gravitation (G).', 
-                    term: '6.67 x 10^-11',
-                    image: 'Images/Physics/Physics10.png' // Updated image path
+                    statement: 'What is the resistance of an object to any change in its velocity?', 
+                    term: 'inertia',
+                    image: 'Images/Physics/PhysicsCollege2.jpg' 
                 },
                 { 
-                    statement: 'What is the relationship between Kinetic Energy and Mass?', 
-                    term: 'direct',
-                    image: 'Images/Physics/Physics11.png' // Updated image path
+                    statement: 'The product of mass and velocity of an object.', 
+                    term: 'momentum' 
                 },
                 { 
-                    statement: 'What is the unit of energy?', 
-                    term: 'joules',
-                    image: 'Images/Physics/Physics3.png' // Updated image path
+                    statement: 'What quantity measures the force applied to an object over a distance?', 
+                    term: 'work' 
                 },
                 { 
-                    statement: 'The unit of current.', 
-                    term: 'amperes',
-                    image: 'Images/Physics/Physics4.png' // Updated image path
+                    statement: 'The bending of light as it passes through different mediums.', 
+                    term: 'refraction' 
                 }
             ]
         }
-    };
-
+    };    
+    
     // Combine all statements for the 'Random' mode
     statements.all = [
         ...statements.elementary.bio,
@@ -324,6 +346,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ...statements.college.chem,
         ...statements.college.physics
     ];
+
 
     // -------------------- Game State Variables --------------------
     let randomizedStatements = [];
